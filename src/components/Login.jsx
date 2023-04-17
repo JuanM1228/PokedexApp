@@ -17,7 +17,7 @@ export const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const regexCharacteres = /^[A-Za-z\sáéíóú]{3,20}$/g;
+    const regexCharacteres = /^[A-Za-záéíóú\s]{3,20}$/g;
     const charactersOk = regexCharacteres.test(username);
 
     if (charactersOk && username.trim().length !== 0) {
