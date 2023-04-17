@@ -147,9 +147,9 @@ You need these tools to get started:
 - Node js
 - Git
 
-You need to clone this repository https://github.com/JuanM1228/PokeApp.git in a directory using a terminal
+You need to clone this repository https://github.com/JuanM1228/PokedexApp.git in a directory using a terminal
 
-#### `git clone https://github.com/JuanM1228/PokeApp.git`
+#### `git clone https://github.com/JuanM1228/PokedexApp.git`
 
 After that you need to enter the generated folder
 
