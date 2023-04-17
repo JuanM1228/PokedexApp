@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > img{
+  cursor: pointer;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.username > p{
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logout-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(224, 33, 33);
+  color: rgb(240, 248, 255);
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+.logout-icon{
+  margin: 0 5px;
+}
+
+.logout-button:hover .logout-icon{
+  animation: logout 1s linear infinite;
+}
+
+
+@keyframes logout {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-8px);
+  }
+}

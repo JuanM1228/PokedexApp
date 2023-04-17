@@ -1,0 +1,73 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    padding:  0 30%;
+   
+}
+
+.login > img{
+    align-self: center;
+}
+
+.valid-input {
+    background: transparent;
+    border: 2px solid var(--font-color);
+    border-radius: 5px;
+    color: inherit;
+    font-size: 1rem;
+    height: 3rem;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+    border: 2px solid var(--yellow-pokemon);
+    color: inherit;
+}
+
+input:active {
+    border: 2px solid var(--font-color);
+}
+
+.login > button {
+    background-color: var(--yellow-pokemon);
+    border-radius: 5px;
+    font: inherit;
+    font-weight: bold;
+    height: 3rem;
+    cursor: pointer;
+    margin: 1.5rem 0 0 0 ;
+}
+
+.mensagge-error{
+    color: red;
+    padding: 0;
+    margin:.3rem 0 0 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.invalid-input{
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: inherit;
+    font-size: 1rem;
+    height: 3rem;
+    outline: none;
+}
+
+@media (max-width: 800px) {
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding:  0 10%;
+        justify-content: center;
+    }
+    
+}

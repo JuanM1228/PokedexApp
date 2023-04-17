@@ -1,0 +1,14 @@
+.pokemon-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    margin: 20px 0;
+}
+
+.title-pokedex{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
